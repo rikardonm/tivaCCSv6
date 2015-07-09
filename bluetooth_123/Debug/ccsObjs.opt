@@ -1,0 +1,1 @@
+"./main.obj" "./pin_config.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd" -l"libc.a" -l"F:\GitHub\tivaCCSv6\driverlib\Debug\driverlib.lib" 
