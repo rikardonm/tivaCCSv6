@@ -1,0 +1,34 @@
+
+**** Build of configuration Debug for project usb_stick_demo ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../startup_ccs.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="startup_ccs.pp"  "../startup_ccs.c"
+'Finished building: ../startup_ccs.c'
+' '
+'Building file: ../usb_stick_demo.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="usb_stick_demo.pp"  "../usb_stick_demo.c"
+'Finished building: ../usb_stick_demo.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/utils/uartstdio.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="utils/uartstdio.pp" --obj_directory="utils"  "F:/ti/TivaWare_C_Series-2.1.1.71/utils/uartstdio.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/utils/uartstdio.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/drivers/pinout.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="drivers/pinout.pp" --obj_directory="drivers"  "F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/drivers/pinout.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/drivers/pinout.c'
+' '
+'Building target: usb_stick_demo.out'
+'Invoking: ARM Linker'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual -z -m"usb_stick_demo_ccs.map" --heap_size=0 --stack_size=512 -i"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/lib" -i"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="usb_stick_demo_linkInfo.xml" --rom_model -o "usb_stick_demo.out" "./startup_ccs.obj" "./usb_stick_demo.obj" "./utils/uartstdio.obj" "./drivers/pinout.obj" "../usb_stick_demo_ccs.cmd"  -l"libc.a" -l"F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/usb_stick_demo/ccs/../../../../../driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: usb_stick_demo.out'
+' '
+"F:/ti/ccsv6/utils/tiobj2bin/tiobj2bin" "usb_stick_demo.out" "usb_stick_demo.bin" "F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armofd" "F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armhex" "F:/ti/ccsv6/utils/tiobj2bin/mkhex4bin"
+' '
+
+**** Build Finished ****

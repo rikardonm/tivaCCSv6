@@ -1,0 +1,1 @@
+"./sleep_modes.obj" "./startup_ccs.obj" "./utils/uartstdio.obj" "./drivers/buttons.obj" "../sleep_modes_ccs.cmd" -l"libc.a" -l"F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/sleep_modes/ccs/../../../../../driverlib/ccs/Debug/driverlib.lib" 

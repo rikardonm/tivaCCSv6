@@ -1,0 +1,178 @@
+
+**** Build of configuration Debug for project driverlib ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/adc.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="adc.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/adc.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/adc.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/aes.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="aes.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/aes.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/aes.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/can.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="can.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/can.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/can.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/comp.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="comp.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/comp.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/comp.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/cpu.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="cpu.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/cpu.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/cpu.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/crc.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="crc.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/crc.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/crc.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/des.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="des.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/des.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/des.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/eeprom.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="eeprom.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/eeprom.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/eeprom.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/emac.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="emac.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/emac.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/emac.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/epi.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="epi.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/epi.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/epi.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/epi_workaround_ccs.s'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="epi_workaround_ccs.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/epi_workaround_ccs.s"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/epi_workaround_ccs.s'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/flash.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="flash.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/flash.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/flash.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/fpu.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="fpu.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/fpu.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/fpu.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/gpio.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="gpio.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/gpio.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/gpio.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/hibernate.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="hibernate.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/hibernate.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/hibernate.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/i2c.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="i2c.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/i2c.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/i2c.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/interrupt.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="interrupt.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/interrupt.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/interrupt.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/lcd.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="lcd.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/lcd.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/lcd.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/mpu.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="mpu.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/mpu.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/mpu.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/onewire.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="onewire.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/onewire.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/onewire.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/pwm.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="pwm.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/pwm.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/pwm.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/qei.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="qei.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/qei.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/qei.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/shamd5.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="shamd5.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/shamd5.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/shamd5.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/ssi.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="ssi.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/ssi.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/ssi.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/sw_crc.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="sw_crc.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/sw_crc.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/sw_crc.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/sysctl.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="sysctl.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/sysctl.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/sysctl.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/sysexc.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="sysexc.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/sysexc.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/sysexc.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/systick.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="systick.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/systick.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/systick.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/timer.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="timer.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/timer.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/timer.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/uart.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="uart.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/uart.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/uart.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/udma.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="udma.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/udma.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/udma.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/usb.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="usb.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/usb.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/usb.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/watchdog.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1230C3PM --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="watchdog.pp"  "F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/watchdog.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/watchdog.c'
+' '
+'Building target: driverlib.lib'
+'Invoking: ARM Archiver'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armar" r "driverlib.lib" "./adc.obj" "./aes.obj" "./can.obj" "./comp.obj" "./cpu.obj" "./crc.obj" "./des.obj" "./eeprom.obj" "./emac.obj" "./epi.obj" "./epi_workaround_ccs.obj" "./flash.obj" "./fpu.obj" "./gpio.obj" "./hibernate.obj" "./i2c.obj" "./interrupt.obj" "./lcd.obj" "./mpu.obj" "./onewire.obj" "./pwm.obj" "./qei.obj" "./shamd5.obj" "./ssi.obj" "./sw_crc.obj" "./sysctl.obj" "./sysexc.obj" "./systick.obj" "./timer.obj" "./uart.obj" "./udma.obj" "./usb.obj" "./watchdog.obj"  
+  ==>  new archive 'driverlib.lib'
+  ==>  building archive 'driverlib.lib'
+'Finished building target: driverlib.lib'
+' '
+
+**** Build Finished ****

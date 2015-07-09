@@ -1,0 +1,1 @@
+"./startup_ccs.obj" "./usb_stick_demo.obj" "./utils/uartstdio.obj" "./drivers/pinout.obj" "../usb_stick_demo_ccs.cmd" -l"libc.a" -l"F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/usb_stick_demo/ccs/../../../../../driverlib/ccs/Debug/driverlib.lib" 

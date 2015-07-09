@@ -1,0 +1,55 @@
+
+**** Build of configuration Debug for project usb_host_msc ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../startup_ccs.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="startup_ccs.pp"  "../startup_ccs.c"
+'Finished building: ../startup_ccs.c'
+' '
+'Building file: ../usb_host_msc.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="usb_host_msc.pp"  "../usb_host_msc.c"
+"../usb_host_msc.c", line 532: warning #169-D: argument of type "uint32_t *" is incompatible with parameter of type "DWORD *"
+'Finished building: ../usb_host_msc.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/utils/cmdline.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="utils/cmdline.pp" --obj_directory="utils"  "F:/ti/TivaWare_C_Series-2.1.1.71/utils/cmdline.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/utils/cmdline.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/utils/uartstdio.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="utils/uartstdio.pp" --obj_directory="utils"  "F:/ti/TivaWare_C_Series-2.1.1.71/utils/uartstdio.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/utils/uartstdio.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/utils/ustdlib.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="utils/ustdlib.pp" --obj_directory="utils"  "F:/ti/TivaWare_C_Series-2.1.1.71/utils/ustdlib.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/utils/ustdlib.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/third_party/fatfs/src/ff.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="third_party/fatfs/src/ff.pp" --obj_directory="third_party/fatfs/src"  "F:/ti/TivaWare_C_Series-2.1.1.71/third_party/fatfs/src/ff.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/third_party/fatfs/src/ff.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/third_party/fatfs/port/fat_usbmsc.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="third_party/fatfs/port/fat_usbmsc.pp" --obj_directory="third_party/fatfs/port"  "F:/ti/TivaWare_C_Series-2.1.1.71/third_party/fatfs/port/fat_usbmsc.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/third_party/fatfs/port/fat_usbmsc.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/drivers/pinout.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="drivers/pinout.pp" --obj_directory="drivers"  "F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/drivers/pinout.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/drivers/pinout.c'
+' '
+'Building target: usb_host_msc.out'
+'Invoking: ARM Linker'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual -z -m"usb_host_msc_ccs.map" --heap_size=0 --stack_size=2048 -i"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/lib" -i"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="usb_host_msc_linkInfo.xml" --rom_model -o "usb_host_msc.out" "./startup_ccs.obj" "./usb_host_msc.obj" "./utils/cmdline.obj" "./utils/uartstdio.obj" "./utils/ustdlib.obj" "./third_party/fatfs/src/ff.obj" "./third_party/fatfs/port/fat_usbmsc.obj" "./drivers/pinout.obj" "../usb_host_msc_ccs.cmd"  -l"libc.a" -l"F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/usb_host_msc/ccs/../../../../../driverlib/ccs/Debug/driverlib.lib" -l"F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/usb_host_msc/ccs/../../../../../usblib/ccs/Debug/usblib.lib" 
+<Linking>
+'Finished building target: usb_host_msc.out'
+' '
+"F:/ti/ccsv6/utils/tiobj2bin/tiobj2bin" "usb_host_msc.out" "usb_host_msc.bin" "F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armofd" "F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armhex" "F:/ti/ccsv6/utils/tiobj2bin/mkhex4bin"
+' '
+
+**** Build Finished ****
