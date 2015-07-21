@@ -22,7 +22,7 @@ enet_io.obj: F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/rom_map.h
 enet_io.obj: F:/ti/TivaWare_C_Series-2.1.1.71/utils/locator.h
 enet_io.obj: F:/ti/TivaWare_C_Series-2.1.1.71/utils/lwiplib.h
 enet_io.obj: F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/src/include/lwip/opt.h
-enet_io.obj: F:/ccsWorkspace/enet_io/lwipopts.h
+enet_io.obj: F:/GitHub/tivaCCSv6/enet_io/lwipopts.h
 enet_io.obj: F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/src/include/lwip/debug.h
 enet_io.obj: F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/src/include/lwip/arch.h
 enet_io.obj: F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/ports/tiva-tm4c129/include/arch/cc.h
@@ -78,7 +78,7 @@ F:/ti/TivaWare_C_Series-2.1.1.71/driverlib/rom_map.h:
 F:/ti/TivaWare_C_Series-2.1.1.71/utils/locator.h: 
 F:/ti/TivaWare_C_Series-2.1.1.71/utils/lwiplib.h: 
 F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/src/include/lwip/opt.h: 
-F:/ccsWorkspace/enet_io/lwipopts.h: 
+F:/GitHub/tivaCCSv6/enet_io/lwipopts.h: 
 F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/src/include/lwip/debug.h: 
 F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/src/include/lwip/arch.h: 
 F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/ports/tiva-tm4c129/include/arch/cc.h: 

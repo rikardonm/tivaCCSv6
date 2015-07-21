@@ -770,3 +770,201 @@ gmake: Target `all' not remade because of errors.
 ' '
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project enet_io ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../enet_io.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/GitHub/tivaCCSv6/enet_io" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/src/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/src/include/ipv4" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/apps" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party/lwip-1.4.1/ports/tiva-tm4c129/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71/third_party" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="enet_io.pp"  "../enet_io.c"
+'Finished building: ../enet_io.c'
+' '
+'Building target: enet_io.out'
+'Invoking: ARM Linker'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual -z -m"enet_io_ccs.map" --heap_size=0 --stack_size=1024 -i"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/lib" -i"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="enet_io_linkInfo.xml" --rom_model -o "enet_io.out" "./cgifuncs.obj" "./enet_io.obj" "./io.obj" "./io_fs.obj" "./startup_ccs.obj" "./utils/locator.obj" "./utils/lwiplib.obj" "./utils/uartstdio.obj" "./utils/ustdlib.obj" "./third_party/lwip-1.4.1/apps/httpserver_raw/httpd.obj" "./drivers/pinout.obj" "../enet_io_ccs.cmd"  -l"libc.a" -l"F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/enet_io/ccs/../../../../../driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: enet_io.out'
+' '
+"F:/ti/ccsv6/utils/tiobj2bin/tiobj2bin" "enet_io.out" "enet_io.bin" "F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armofd" "F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armhex" "F:/ti/ccsv6/utils/tiobj2bin/mkhex4bin"
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project enet_io ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project testbed_0 ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "testbed_0.out"  "testbed_0.bin" 
+Could Not Find F:\GitHub\tivaCCSv6\testbed_0\Debug\testbed_0.out
+DEL /F "startup_ccs.pp" "timers.pp" "utils\uartstdio.pp" 
+DEL /F "startup_ccs.obj" "timers.obj" "utils\uartstdio.obj" 
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project testbed_0 ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 231: error #20: identifier "BTuart" is undefined
+
+>> Compilation failure
+"../main.c", line 260: error #126: expected a "("
+"../main.c", line 261: warning #176-D: expression has no effect
+"../main.c", line 263: error #128: expected a statement
+'Building file: ../startup_ccs.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="startup_ccs.pp"  "../startup_ccs.c"
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+'Finished building: ../startup_ccs.c'
+' '
+'Building file: F:/ti/TivaWare_C_Series-2.1.1.71/utils/uartstdio.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="utils/uartstdio.pp" --obj_directory="utils"  "F:/ti/TivaWare_C_Series-2.1.1.71/utils/uartstdio.c"
+'Finished building: F:/ti/TivaWare_C_Series-2.1.1.71/utils/uartstdio.c'
+' '
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project testbed_0 ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 231: error #20: identifier "BTuart" is undefined
+"../main.c", line 263: error #66: expected a ";"
+2 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project testbed_0 ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 231: error #20: identifier "BTuart" is undefined
+1 error detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project testbed_0 ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 296: error #20: identifier "tempChar" is undefined
+"../main.c", line 325: warning #994-D: missing return statement at end of non-void function "Terminal"
+
+>> Compilation failure
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project testbed_0 ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 329: warning #994-D: missing return statement at end of non-void function "Terminal"
+'Finished building: ../main.c'
+' '
+'Building target: testbed_0.out'
+'Invoking: ARM Linker'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual -z -m"timers_ccs.map" --heap_size=0 --stack_size=256 -i"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/lib" -i"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="testbed_0_linkInfo.xml" --rom_model -o "testbed_0.out" "./main.obj" "./startup_ccs.obj" "./utils/uartstdio.obj" "../timers_ccs.cmd"  -l"libc.a" -l"F:/ti/TivaWare_C_Series-2.1.1.71/examples/boards/ek-tm4c1294xl/timers/ccs/../../../../../driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+'Finished building target: testbed_0.out'
+' '
+"F:/ti/ccsv6/utils/tiobj2bin/tiobj2bin" "testbed_0.out" "testbed_0.bin" "F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armofd" "F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armhex" "F:/ti/ccsv6/utils/tiobj2bin/mkhex4bin"
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project testbed_0 ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 97: error #131: expected a "{"
+"../main.c", line 175: warning #12-D: parsing restarts here after previous syntax error
+"../main.c", line 186: error #20: identifier "g_ui32Flags" is undefined
+"../main.c", line 201: warning #994-D: missing return statement at end of non-void function "Terminal"
+"../main.c", line 221: error #20: identifier "g_ui32Flags" is undefined
+"../main.c", line 267: error #20: identifier "g_ui32SysClock" is undefined
+"../main.c", line 287: error #20: identifier "BTuart" is undefined
+"../main.c", line 305: error #20: identifier "BTterm" is undefined
+"../main.c", line 317: error #249: function "Terminal" has already been defined
+"../main.c", line 319: error #20: identifier "BTRxIndex" is undefined
+"../main.c", line 320: error #20: identifier "BTRx" is undefined
+"../main.c", line 320: error #20: identifier "tempChar" is undefined
+"../main.c", line 353: warning #994-D: missing return statement at end of non-void function "Terminal"
+"../main.c", line 373: error #20: identifier "g_ui32SysClock" is undefined
+
+11 errors detected in the compilation of "../main.c".
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project testbed_0 ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 305: error #169: argument of type "TerminalStruct" is incompatible with parameter of type "TerminalStruct *"
+"../main.c", line 319: error #20: identifier "BTRxIndex" is undefined
+"../main.c", line 320: error #20: identifier "BTRx" is undefined
+"../main.c", line 320: error #20: identifier "tempChar" is undefined
+"../main.c", line 353: warning #994-D: missing return statement at end of non-void function "Terminal"
+4 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project testbed_0 ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 319: error #20: identifier "BTRxIndex" is undefined
+"../main.c", line 320: error #20: identifier "BTRx" is undefined
+"../main.c", line 320: error #20: identifier "tempChar" is undefined
+"../main.c", line 353: warning #994-D: missing return statement at end of non-void function "Terminal"
+3 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

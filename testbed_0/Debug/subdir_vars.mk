@@ -7,27 +7,27 @@ CMD_SRCS += \
 ../timers_ccs.cmd 
 
 C_SRCS += \
-../startup_ccs.c \
-../timers.c 
+../main.c \
+../startup_ccs.c 
 
 OBJS += \
-./startup_ccs.obj \
-./timers.obj 
+./main.obj \
+./startup_ccs.obj 
 
 C_DEPS += \
-./startup_ccs.pp \
-./timers.pp 
+./main.pp \
+./startup_ccs.pp 
 
 C_DEPS__QUOTED += \
-"startup_ccs.pp" \
-"timers.pp" 
+"main.pp" \
+"startup_ccs.pp" 
 
 OBJS__QUOTED += \
-"startup_ccs.obj" \
-"timers.obj" 
+"main.obj" \
+"startup_ccs.obj" 
 
 C_SRCS__QUOTED += \
-"../startup_ccs.c" \
-"../timers.c" 
+"../main.c" \
+"../startup_ccs.c" 
 
 

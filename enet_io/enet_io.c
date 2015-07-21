@@ -624,7 +624,8 @@ main(void)
     // Initialze the lwIP library, using DHCP.
     //
     //lwIPInit(g_ui32SysClock, pui8MACArray, 0, 0, 0, IPADDR_USE_DHCP);
-    lwIPInit(g_ui32SysClock, pui8MACArray, 0xC0A80111, 0xFFFFFF00, 0xC0A80111, IPADDR_USE_STATIC);
+    //lwIPInit(g_ui32SysClock, pui8MACArray, 0xC0A80111, 0xFFFFFF00, 0xC0A80111, IPADDR_USE_STATIC);
+    lwIPInit(g_ui32SysClock, pui8MACArray, 0xAC110C9E, 0xFFFFC000, 0xAC110801, IPADDR_USE_STATIC);
 
 
     //

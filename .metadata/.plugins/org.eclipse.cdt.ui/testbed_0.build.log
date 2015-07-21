@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project testbed_0 ****
+
+"F:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -O2 --include_path="F:/ti/ccsv6/tools/compiler/ti-cgt-arm_5.2.2/include" --include_path="F:/ti/TivaWare_C_Series-2.1.1.71" -g --gcc --define=ccs="ccs" --define=PART_TM4C1294NCPDT --define=TARGET_IS_TM4C129_RA0 --display_error_number --diag_warning=225 --diag_wrap=off --gen_func_subsections=on --ual --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 319: error #20: identifier "BTRxIndex" is undefined
+"../main.c", line 320: error #20: identifier "BTRx" is undefined
+"../main.c", line 320: error #20: identifier "tempChar" is undefined
+"../main.c", line 353: warning #994-D: missing return statement at end of non-void function "Terminal"
+3 errors detected in the compilation of "../main.c".
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
